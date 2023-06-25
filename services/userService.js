@@ -32,7 +32,7 @@ exports.forgotPassword = async (email) => {
     to: user.email, 
     subject: 'Password reset link', 
     text: 'Please use the following link to reset your password: ' + 
-          'http://localhost:3000/resetPassword/' + token, // plain text body
+          'https://astonishing-pegasus-7048b4.netlify.app/resetPassword/' + token, // plain text body
   };
 
   // send mail with defined transport object
